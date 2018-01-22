@@ -10,8 +10,8 @@ package:
 source:
   fn: quadprog_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/quadprog_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/quadprog/quadprog_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/quadprog_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/quadprog/quadprog_{{ version }}.tar.gz
   sha256: d999620688354c283de5bb305203f5db70271b4dfdc23577cae8c2ba94c9e349
 
 
